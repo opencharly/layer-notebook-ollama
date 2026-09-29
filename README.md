@@ -43,7 +43,6 @@ Compose the layer in a box's `candy:` list, e.g. `jupyter-ml-notebook`:
 ```yaml
 jupyter-ml-notebook:
   candy:
-    # the named box's value is the box BODY; `base:` and the `candy:` list are its keys
     base: fedora-nonfree
     candy:
       - '@github.com/opencharly/layer-notebook-ollama:v2026.239.1601'
@@ -62,7 +61,7 @@ charly start jupyter-ml-notebook    # OLLAMA_HOST already set
 ## Layout
 
 - `charly.yml` — the `notebook-ollama:` candy entity (the `data:` mapping and the
-  `plan:` checks) plus the embedded `skill:` entity.
+  `plan:` checks) plus the embedded `skill:` entity (the `notebook-ollama-skill:` node).
 - `data/ollama/` — the 6 notebooks and `notebooks.yaml`.
 - `README.md` — this user overview.
 
