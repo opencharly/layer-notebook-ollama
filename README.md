@@ -38,7 +38,7 @@ container on the same `charly` network — no manual environment setup.
 
 ## How to use it
 
-Compose the layer inside a box body: the box name's `candy:` node IS the box body, whose keys are `base:` and a `candy:` list, e.g. `jupyter-ml-notebook`:
+Compose the layer by pinning this repo in a box's `candy:` list, e.g. `jupyter-ml-notebook`:
 
 ```yaml
 jupyter-ml-notebook:
