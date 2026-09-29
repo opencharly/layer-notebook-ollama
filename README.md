@@ -43,6 +43,7 @@ Compose the layer in a box's `candy:` list, e.g. `jupyter-ml-notebook`:
 ```yaml
 jupyter-ml-notebook:
   candy:
+    # the named box's value is the box BODY; `base:` and the `candy:` list are its keys
     base: fedora-nonfree
     candy:
       - '@github.com/opencharly/layer-notebook-ollama:v2026.239.1601'
