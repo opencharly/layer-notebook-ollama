@@ -5,13 +5,13 @@ demonstrating Ollama integration (raw REST, OpenAI-compatible, native library,
 HuggingFace import, Anthropic-style, GPU), seeded into the workspace volume of a
 Jupyter image at deploy time. The candy lives in `charly.yml` at the repo root:
 the `data:` mapping into the `workspace` volume, the `plan:` `check:`
-assertions, and the embedded `skill:` entity (the `notebook-ollama-skill:` node) projected into the marketplace
+assertions, and the embedded `skill:` entity projected into the marketplace
 corpus as `/charly-jupyter:notebook-ollama`.
 
 Canonical files:
 
 - `charly.yml` — the `notebook-ollama:` candy entity and the
-  `notebook-ollama-skill:` `skill:` entity.
+  the embedded `skill:` entity.
 - `data/ollama/` — the notebooks and `notebooks.yaml`.
 - `.github/workflows/tag-on-merge.yml` — CalVer tag + `CHANGELOG/` on merge.
 - `README.md` — user overview only; never agent guidance.
@@ -37,8 +37,7 @@ Canonical files:
 
 ## Modify this repo
 
-- Edit the `notebook-ollama:` candy entity AND the `notebook-ollama-skill:`
-  skill entity in `charly.yml` together. The skill is the projected usage source,
+- Edit the `notebook-ollama:` candy entity AND the embedded `skill:` entity in `charly.yml` together. The skill is the projected usage source,
   so a data, path, or behaviour change not mirrored in the skill leaves the
   corpus stale.
 - The `data:` `dest:` field places the notebooks in a volume subdirectory rather

@@ -61,7 +61,7 @@ charly start jupyter-ml-notebook    # OLLAMA_HOST already set
 ## Layout
 
 - `charly.yml` — the `notebook-ollama:` candy entity (the `data:` mapping and the
-  `plan:` checks) plus the embedded `skill:` entity (the `notebook-ollama-skill:` node).
+  `plan:` checks) plus the embedded `skill:` entity.
 - `data/ollama/` — the 6 notebooks and `notebooks.yaml`.
 - `README.md` — this user overview.
 
