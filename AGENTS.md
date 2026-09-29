@@ -10,8 +10,7 @@ corpus as `/charly-jupyter:notebook-ollama`.
 
 Canonical files:
 
-- `charly.yml` — the `notebook-ollama:` candy entity and the
-  the embedded `skill:` entity.
+- `charly.yml` — the candy entity and the embedded `skill:` entity.
 - `data/ollama/` — the notebooks and `notebooks.yaml`.
 - `.github/workflows/tag-on-merge.yml` — CalVer tag + `CHANGELOG/` on merge.
 - `README.md` — user overview only; never agent guidance.
