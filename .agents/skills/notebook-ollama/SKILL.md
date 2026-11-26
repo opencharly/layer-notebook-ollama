@@ -138,18 +138,14 @@ charly shell ollama -c "ollama pull llama3.2"
 
 ## Used In Boxes
 
-- `/charly-jupyter:jupyter-ml-notebook`
 
 ## Related Skills
 
 - `/charly-image:layer` — data field documentation and candy authoring rules
 - `/charly-core:charly-config` — data provisioning during `charly config` setup
 - `/charly-core:deploy` — volume backing configuration
-- `/charly-jupyter:notebook-finetuning` — sibling data candy pattern (Unsloth fine-tuning notebooks)
-- `/charly-jupyter:notebook-templates` — sibling data candy pattern (starter notebooks)
 - `/charly-ollama:ollama` — the Ollama binary candy (server side)
 - `/charly-ollama:ollama` — the standalone Ollama box (must be running for notebooks to connect)
-- `/charly-jupyter:jupyter-ml-notebook` — the box that includes this candy
 
 ## When to Use This Skill
 
