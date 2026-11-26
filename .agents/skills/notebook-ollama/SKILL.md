@@ -136,9 +136,6 @@ charly shell ollama -c "ollama pull llama3.2"
 # Open http://localhost:8888 -> navigate to ollama/
 ```
 
-## Used In Boxes
-
-
 ## Related Skills
 
 - `/charly-image:layer` — data field documentation and candy authoring rules
